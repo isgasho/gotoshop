@@ -47,9 +47,7 @@ is set to ceil(6 * `std_dev`).
 
 Example
 
-```
-curl 'http://localhost:3000/blur?url=http%3A%2F%2Fblog.golang.org%2Fgo-at-google-io-2011-videos_gopher.jpg&std_dev=3'
-```
+http://gotoshop.herokuapp.com/blur?url=http%3A%2F%2Fblog.golang.org%2Fgo-at-google-io-2011-videos_gopher.jpg&std_dev=3
 
 ### GET /crop
 
@@ -68,9 +66,7 @@ bounds.
 
 Example
 
-```
-curl 'http://localhost:3000/crop?url=http%3A%2F%2Fblog.golang.org%2Fgo-at-google-io-2011-videos_gopher.jpg&x0=100&y0=100&x1=200&y1=200'
-```
+http://gotoshop.herokuapp.com/crop?url=http%3A%2F%2Fblog.golang.org%2Fgo-at-google-io-2011-videos_gopher.jpg&x0=100&y0=100&x1=200&y1=200
 
 ### GET /flip
 
@@ -85,9 +81,7 @@ Flips an image vertically or horizontally.
 
 Example
 
-```
-curl 'http://localhost:3000/flip?url=http%3A%2F%2Fblog.golang.org%2Fgo-at-google-io-2011-videos_gopher.jpg&axis=x'
-```
+http://gotoshop.herokuapp.com/flip?url=http%3A%2F%2Fblog.golang.org%2Fgo-at-google-io-2011-videos_gopher.jpg&axis=x
 
 ### GET /rotate
 
@@ -102,9 +96,7 @@ clockwise.
 
 Example
 
-```
-curl 'http://localhost:3000/rotate?url=http%3A%2F%2Fblog.golang.org%2Fgo-at-google-io-2011-videos_gopher.jpg&angle=1.0'
-```
+http://gotoshop.herokuapp.com/rotate?url=http%3A%2F%2Fblog.golang.org%2Fgo-at-google-io-2011-videos_gopher.jpg&angle=1.0
 
 ### GET /scale
 
@@ -118,9 +110,7 @@ Scales an image. `ratio` must be larger than 0.
 
 Example
 
-```
-curl 'http://localhost:3000/scale?url=http%3A%2F%2Fblog.golang.org%2Fgo-at-google-io-2011-videos_gopher.jpg&ratio=0.5'
-```
+http://gotoshop.herokuapp.com/scale?url=http%3A%2F%2Fblog.golang.org%2Fgo-at-google-io-2011-videos_gopher.jpg&ratio=0.5
 
 ### GET /thumbnail
 
@@ -135,6 +125,4 @@ Scales and crops source image to fit `width` and `height`.
 
 Example
 
-```
-curl 'http://localhost:3000/thumbnail?url=http%3A%2F%2Fblog.golang.org%2Fgo-at-google-io-2011-videos_gopher.jpg&width=100&height=100'
-```
+http://gotoshop.herokuapp.com/thumbnail?url=http%3A%2F%2Fblog.golang.org%2Fgo-at-google-io-2011-videos_gopher.jpg&width=100&height=100
