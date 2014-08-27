@@ -38,5 +38,7 @@ func main() {
 		scale,
 	))
 
+	http.HandleFunc("/inspect", inspect)
+
 	log.Fatal(http.ListenAndServe(config.Addr, nil))
 }
