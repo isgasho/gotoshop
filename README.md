@@ -68,6 +68,21 @@ Example
 
 http://gotoshop.herokuapp.com/crop?url=http%3A%2F%2Fblog.golang.org%2Fgo-at-google-io-2011-videos_gopher.jpg&x0=100&y0=100&x1=200&y1=200
 
+### GET /fit
+
+Scales an image to fit the given width and height.
+
+```
+{
+    width: <int>,
+    height: <int>,
+}
+```
+
+Example
+
+http://gotoshop.herokuapp.com/fit?url=http%3A%2F%2Fblog.golang.org%2Fgo-at-google-io-2011-videos_gopher.jpg&width=100&height=100
+
 ### GET /flip
 
 Flips an image vertically or horizontally.

@@ -18,6 +18,11 @@ func main() {
 		crop,
 	))
 
+	http.HandleFunc("/fit", buildHandler(
+		fitArgsBuilder,
+		fit,
+	))
+
 	http.HandleFunc("/flip", buildHandler(
 		flipArgsBuilder,
 		flip,
